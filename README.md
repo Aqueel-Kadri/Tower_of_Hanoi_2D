@@ -49,10 +49,10 @@ Drag n Drop:
         ( makes the object's centre snap to the cursor's position )
 
     Solution:-   
-        Record the initial position of the object and then adding the amount the cursor has moved.
+         Adding the displacement of the cursor to the object's initial position.
         
         currentObjectPosition = initialObjectPosition + cursorDisplacement 
-        ( where cursorDisplacement = initialCursorPosition - currentCursorPosition )
+        ( where cursorDisplacement = currentCursorPosition - initialCursorPosition )
 
     -This results in a more natural feeling drag and drop which is an essential part of the project. 
 
